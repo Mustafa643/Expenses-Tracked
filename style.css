@@ -1,3 +1,104 @@
+
+.g-signin2{
+    padding-top: 370px;
+    padding-left: 650px;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaYtS7QrGKbE_cg8MDRxKCZoWs_thzm8yvZoQsjhdhM6fuOOgz);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+  color:green;
+  text-align: center;
+  
+}
+h2{ 
+  color:green;
+  position: absolute;
+  top:1100px;
+  left:550px;
+}
+u{
+  color:green;
+}
+p{
+  font-size: 26px;
+  color:rgba(88, 58, 20, 0.945);
+  text-align: center;
+}
+.i1{
+  position: absolute;
+  top:300px;
+  left: 180px;
+}
+.i2{
+  position: absolute;
+  top:300px;
+  left:530px;
+}
+.i3{
+  position: absolute;
+  top:300px;
+  left:880px;
+}
+.i4 {
+  position: absolute;
+  top:650px;
+  left:400px;
+}
+.i5{
+  position: absolute;
+  top:750px;
+  left:15px;
+}
+.i6{
+  position: absolute;
+  top:1000px;
+  left:300px;
+}
+h1 {
+text-decoration: underline;
+
+}
+.w4{ 
+  position: absolute;
+  top:1010px;
+  left:550px;
+
+}
+.r1{
+  position: absolute;
+  top:1px;
+  left:300px;
+}
+.r4{
+  position:absolute;
+  top:1350px;
+  left:290px;
+}
+.r9{
+  position: absolute;
+  top:1px;
+}
+.y6{
+  position: absolute;
+  left:20px;
+  top:1100px;
+
+}
+.y7{
+  position:absolute;
+  left:20px;
+  top:1150px;
+}
+h3{
+  color:rgb(71, 39, 9);
+}
+
 .background-img{
   position: fixed;
   left: 0;
@@ -77,3 +178,5 @@ li a:hover {
     background:red;
     box-shadow: 0px 0px 1px #777;
 }
+
+
