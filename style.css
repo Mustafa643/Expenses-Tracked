@@ -1,4 +1,5 @@
 
+
 .layout{
     background-color:rgb(73, 131, 238);
     height: 1400px;
@@ -95,4 +96,151 @@
     font-family: 'Lacquer', sans-serif;
     font-size: 40px;
 }
+
+
+
+/* .g-signin2{
+    padding-top: 370px;
+    padding-left: 650px;
+}
+
+
+
+h1{
+  color:green;
+  text-align: center;
+  
+}
+h2{ 
+  color:green;
+  position: absolute;
+  top:1100px;
+  left:550px;
+}
+
+p{
+  font-size: 26px;
+  color:rgba(88, 58, 20, 0.945);
+  text-align: center;
+  font-family: 'Merriweather', serif;
+font-family: 'Lobster', cursive;
+}
+
+h1 {
+text-decoration: underline;
+font-family: 'Merriweather', serif;
+
+
+}
+
+h3{
+  color:rgb(71, 39, 9);
+}
+ */
+.background-img{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  background-image: url("/img/");
+  padding-bottom: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-bar {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  border-bottom: 1.2px solid white;
+}
+
+.hero-section{
+  text-align: center;
+  padding-left: 300px;
+  padding-top: 200px;
+  color:  #0669BF;
+  position: fixed;
+}
+.hero-section{
+  padding-top: 100px;
+  padding-left: 570px;
+} 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.5;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 28px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+#startbtn{
+  border-radius:6px;
+    color: black;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+
+
+#startbtn:hover {
+    border: none;
+    background:red;
+    box-shadow: 0px 0px 1px #777;
+}
+.head{
+  padding-top: 700px;
+  margin-left: 100px
+}
+.jumbotron{
+  padding-top: 1000px
+}
+
+.con{
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);}
+.copy{
+  text-align: right;
+  font-size: 12px;
+}
+.control{
+    z-index: 9999;
+
+}
+.pad{
+  padding-top: 30px;
+}
+
+
+
+
 
