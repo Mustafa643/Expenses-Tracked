@@ -1,3 +1,4 @@
+
 .g-signin2{
     padding-top: 370px;
     padding-left: 650px;
@@ -8,3 +9,174 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+h1{
+  color:green;
+  text-align: center;
+  
+}
+h2{ 
+  color:green;
+  position: absolute;
+  top:1100px;
+  left:550px;
+}
+u{
+  color:green;
+}
+p{
+  font-size: 26px;
+  color:rgba(88, 58, 20, 0.945);
+  text-align: center;
+}
+.i1{
+  position: absolute;
+  top:300px;
+  left: 180px;
+}
+.i2{
+  position: absolute;
+  top:300px;
+  left:530px;
+}
+.i3{
+  position: absolute;
+  top:300px;
+  left:880px;
+}
+.i4 {
+  position: absolute;
+  top:650px;
+  left:400px;
+}
+.i5{
+  position: absolute;
+  top:750px;
+  left:15px;
+}
+.i6{
+  position: absolute;
+  top:1000px;
+  left:300px;
+}
+h1 {
+text-decoration: underline;
+
+}
+.w4{ 
+  position: absolute;
+  top:1010px;
+  left:550px;
+
+}
+.r1{
+  position: absolute;
+  top:1px;
+  left:300px;
+}
+.r4{
+  position:absolute;
+  top:1350px;
+  left:290px;
+}
+.r9{
+  position: absolute;
+  top:1px;
+}
+.y6{
+  position: absolute;
+  left:20px;
+  top:1100px;
+
+}
+.y7{
+  position:absolute;
+  left:20px;
+  top:1150px;
+}
+h3{
+  color:rgb(71, 39, 9);
+}
+
+.background-img{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  background-image: url("../images/finance00.jpeg");
+  padding-bottom: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-bar {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  border-bottom: 1.2px solid white;
+}
+
+.hero-section{
+  text-align: center;
+  padding-left: 300px;
+  padding-top: 200px;
+  color:  #0669BF;
+  position: relative;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.5;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 28px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.slogan{
+  font-size: 90px;
+}
+
+#startbtn{
+  border-radius:6px;
+    color: #black;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+
+
+#startbtn:hover {
+    border: none;
+    background:red;
+    box-shadow: 0px 0px 1px #777;
+}
+
+
