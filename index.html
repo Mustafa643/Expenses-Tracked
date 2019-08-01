@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,6 +21,21 @@
     <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+    
+    <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+
+
+    
+
+
+
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="http://pluspng.com/img-png/book-png-book-stack-png-image-25686-1024.png">
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
@@ -21,12 +45,13 @@
   <div id="home">
   <img src="https://wallpaperplay.com/walls/full/4/6/f/71464.jpg" alt="" height="50%" width="100%">
 </div>
+
   <div class="container-fluid">
 <div class="background-img">
   <div class="nav-bar">
     <ul>
       <li><a class="active" href="#home">Home</a></li>
-      <li><a href="#form">Form</a></li>
+      <li><a href="#form.html">Form</a></li>
       <li><a href="#contact">Contact</a></li>
       <li> <a href="#gallery">Gallery</a> </li>
       <li><a href="#about">About</a></li>
@@ -39,6 +64,52 @@
   </div>
 </div>
 </div>
+
+
+  <div style="text-align:center">
+      <h2>Expetrack Image Gallery</h2>
+      
+    </div>
+    <!-- The four columns -->
+ <div class="row">
+   <div class="column">
+     <img src="images/100-bank-notes-buy-2099.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+   </div>
+   <div class="column">
+     <img src="images/calculation-calculator-cash-34502.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+   </div>
+   <div class="column">
+     <img src="images/c-clamp-cash-close-up-46242.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+   </div>
+   <div class="column">
+     <img src="images/balance-calculator-chart-163032.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+   </div>
+ </div>
+ <div class="row">
+   <div class="column">
+       <img src="images/bank-banking-blue-50987.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+     </div>
+     <div class="column">
+       <img src="images/bank-notes-budget-capitalism-12619.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+     </div>
+     <div class="column">
+       <img src="images/bank-notes-cash-close-up-417395.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+     </div>
+     <div class="column">
+       <img src="images/banknotes-cash-currency-545064.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+
+   </div>
+
+
+ </div>
+ <div class="container">
+     <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+     <img id="expandedImg" style="width:100%">
+     <div id="imgtext"></div>
+   </div>
+
+
+
 <div class="container">
 
     <!-- <h1>BE IN CONTROL</h1> -->
@@ -67,6 +138,11 @@
             </div>
 
         </div>
+
+        </div>
+
+ 
+
     <script src="main.js"></script>
     <div class="contact"id="contact">
         <div class="row con">
@@ -88,6 +164,8 @@
                     <h5 class="copy"> Copyright {2019} ExpeTracker</h5>
           
                 </div>
+
+
 
 </body>
 </html>
