@@ -1,4 +1,21 @@
+
 $(document).ready(function (){
+
+
+function onSignIn(googleUser) {
+    var profile = googleUser.getBasicProfile();
+    console.log("ID: " + profile.getId()); 
+    console.log('Full Name: ' + profile.getName());
+    console.log('Given Name: ' + profile.getGivenName());
+    console.log('Family Name: ' + profile.getFamilyName());
+    console.log("Image URL: " + profile.getImageUrl());
+    console.log("Email: " + profile.getEmail());
+
+    var id_token = googleUser.getAuthResponse().id_token;
+    console.log("ID Token: " + id_token)};
+
+// $(document).ready(function (){
+
   
      
     $name = $('input[name="item-name"'); 
@@ -52,6 +69,7 @@ $(document).ready(function (){
       
       if(form_validated) {
        
+
         $("table").append('<tr><td>'+$name.val()+'</td><td>'+formatDate($date.val())+'</td><td class="amount">$'+$amount.val()+'</td></br></tr>');
         $date.val(null);
         $amount.val(null);
@@ -118,3 +136,14 @@ $(document).ready(function (){
       };
     });
   });
+
+//         $("table tr:first").after('<tr><td>'+type_icon+'</td><td>'+$name.val()+'</td><td>'+formatDate($date.val())+'</td><td class="amount">$'+$amount.val()+'</td></tr>');
+//         $date.val(null);
+//         $amount.val(null);
+//         $name.val(null);
+//         $("#if-empty").remove();
+//       };
+//     });
+    
+//   });
+
