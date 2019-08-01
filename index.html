@@ -8,11 +8,14 @@
     <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <title>Expenses Tracker</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600'>
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 
     
     <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
@@ -38,11 +41,16 @@
 </div>
 <div class="container">
         <div class="jumbotron">
+
+    
+    
+  
+
     <u><h1>About Us</h1></u>
       <p>We created this system to help, and make it easier for those who need help with tracking their expenses,savings and budgets. </p>
-      <div class="i1"><img src="1.jpg" height="300" width="300"></div>
-      <div class="i2"><img src="2.jpg" height="300" width="300"></div>
-      <div class="i3"><img src="3.jpg" height="300" width="300"></div>
+      <div class="i1"><img src="img/1.jpg" height="300" width="300"></div>
+      <div class="i2"><img src="img/2.jpg" height="300" width="300"></div>
+      <div class="i3"><img src="img/3.jpg" height="300" width="300"></div>
     <div class="i4"> <u> <h1>We Solve Your Financial Problems</h1> </u> </div>
     <div class="i5"><p>Problems from no savings,overbudges and incomes not known is left for us to figure out.We help you to be more aware of those things and level everthing out for you. What more do you need?</p> <p>Being in debt is the single most common reason why people have financial problems in the first place. Whether it’s bills or loans, the debt can take an ugly turn. The problem arises when you spend the money without realizing that you don’t have enough to pay it back. This is one of the most common mistakes people make.Which is why we are here to help.</p> </div>
           <div class="w4"> <u> 
@@ -87,6 +95,52 @@
 
 
         </div>
+
+  <div class="container">
+        <div class="jumbotron">
+
+
+    <h1>Simple expense manager project</h1>
+<h2>Add a new item:</h2>
+
+<div id="form-box">
+<form>
+  
+  
+  <div>
+    <span>Name:</span> <input type="text" name="item-name" placeholder="What did you spend on?">
+  </div>
+  
+  <div>
+    <span>Date:</span> <input type="date" name="date">
+  </div>
+  
+  <div>
+    <span>Amount:</span> <input type="number" name="amount" placeholder="How much?">
+  </div>
+  
+</form>
+</div>
+
+<div id="button"><span>Add a new expense</span></div>
+
+<table>
+  <tr>
+    
+    <th>name</th>
+    <th id="date">date</th>
+    <th style="text-align: right" id="amount">amount</th>
+  </tr>
+  <tr id="if-empty">
+    <td colspan="4"><span>Your added items will show up here!</span></td>
+  </tr>
+
+</table>
+        </div>
+        </div>
+
+
+    <script src="main.js"></script>
 
 </body>
 </html>
