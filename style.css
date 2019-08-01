@@ -1,3 +1,4 @@
+
 h1{
   color:green;
   text-align: center;
@@ -85,3 +86,84 @@ text-decoration: underline;
 h3{
   color:rgb(71, 39, 9);
 }
+
+.background-img{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  background-image: url("../images/finance00.jpeg");
+  padding-bottom: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-bar {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  border-bottom: 1.2px solid white;
+}
+
+.hero-section{
+  text-align: center;
+  padding-left: 300px;
+  padding-top: 200px;
+  color:  #0669BF;
+  position: relative;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.5;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 28px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.slogan{
+  font-size: 90px;
+}
+
+#startbtn{
+  border-radius:6px;
+    color: #black;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+
+
+#startbtn:hover {
+    border: none;
+    background:red;
+    box-shadow: 0px 0px 1px #777;
+}
+
