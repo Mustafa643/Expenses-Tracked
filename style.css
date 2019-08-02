@@ -139,6 +139,20 @@ li a:hover {
 .pad{
   padding-top: 30px;
 }
+.si{
+  padding-left: 200px;
+  /* color: #0669BF; */
+}
+.cont{
+  position: relative;
+}
+
+  /* .mu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
 
 
 
