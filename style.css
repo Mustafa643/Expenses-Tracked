@@ -1,5 +1,105 @@
 
-.g-signin2{
+
+.layout{
+    background-color:rgb(73, 131, 238);
+    height: 1400px;
+}
+.hero{
+    text-align: center;
+    padding-top: 150px;
+}
+.forms{
+    margin-top: 100px;
+       
+}
+.forms span{
+    font-size: 25px;
+    padding-left: 100px;
+}
+.forms input{
+    border: 2px solid rgb(56, 214, 217);
+    border-radius: 5%; 
+    height: 50px;   
+    width: 300px;
+}
+#button{
+    background-color: rgb(235, 132, 8);
+    height: 40px;
+    width: 150px;
+    border: 2px solid rgb(235, 132, 8);
+    border-radius: 25px;
+    align-content: center;
+    margin-left: 500px; 
+    margin-top: 100px;
+}
+.table{
+    margin-left: 300px;
+    margin-top: 150px;
+    border-spacing: 100px;
+    width: 50%;
+    display: none;
+}   
+#if-empty{
+    margin-left: 600px;
+    margin-top: 150px;
+    border-spacing: 100px;
+    width: 50%;
+    
+}
+.forms1{
+    margin-top: 100px;
+       
+}
+.forms1 span{
+    font-size: 25px;
+    padding-left: 100px;
+}
+.forms1 input{
+    border: 2px solid rgb(56, 214, 217);
+    border-radius: 5%; 
+    height: 50px;   
+    width: 300px;
+}
+#button1{
+    background-color: rgb(235, 132, 8);
+    height: 40px;
+    width: 150px;
+    border: 2px solid rgb(235, 132, 8);
+    border-radius: 25px;
+    align-content: center;
+    margin-left: 400px; 
+    margin-top: 100px;
+}
+.table1{
+    margin-left: 300px;
+    margin-top: 150px;
+    border-spacing: 100px;
+    width: 50%;
+    display: none;
+}   
+#if-empty1{
+    margin-left: 600px;
+    margin-top: 150px;
+    border-spacing: 100px;
+    width: 50%;
+    
+}
+.forms h2{
+    padding-left: 500px;
+    margin-top: 100px;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 40px;
+}
+.form1 h2{
+    padding-left: 500px;
+    margin-top: 100px;
+    font-family: 'Lacquer', sans-serif;
+    font-size: 40px;
+}
+
+
+
+/* .g-signin2{
     padding-top: 370px;
     padding-left: 650px;
 }
@@ -36,7 +136,7 @@ font-family: 'Merriweather', serif;
 h3{
   color:rgb(71, 39, 9);
 }
-
+ */
 .background-img{
   position: fixed;
   left: 0;
@@ -136,8 +236,19 @@ li a:hover {
     z-index: 9999;
 
 }
-.pad{
-  padding-top: 30px;
+.pad h1{
+  padding-left: 30px;
+  color: green;
+  text-align: center;
+  padding-top: 20px;
+
+
+}
+.pad p{
+  text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 24px;
+
 }
 .si{
   padding-left: 200px;
@@ -153,6 +264,34 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
   } */
+  #about h1{
+    color: green;
+    text-align: center;
+
+  }
+  #about p{
+text-align: center; 
+font-family: 'Darker Grotesque', sans-serif;
+font-size: 24px;
+
+}
+.ser h1{
+  color: green;
+  text-align: center;
+  
+}
+.ser p{
+  text-align: center;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 24px;
+}
+.gal h2{
+  color: green;
+}
+.img{
+  padding-left: 80px;
+}
+
 
 
 

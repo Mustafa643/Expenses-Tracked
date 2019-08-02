@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,8 +19,24 @@
     <title>Expenses Tracker</title>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600'>
     <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+    
+    <!-- <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div> -->
+
+
+    
+
+
+
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="http://pluspng.com/img-png/book-png-book-stack-png-image-25686-1024.png">
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
@@ -21,15 +46,16 @@
   <div id="home" class="mu">
 
   <img src="https://wallpaperplay.com/walls/full/4/6/f/71464.jpg" alt="snow" height="50%" width="100%" >
-  <div class="centered">Centered</div>
+  <!-- <div class="centered">Centered</div> -->
   
 </div>
+
   <div class="container-fluid">
 <div class="background-img">
   <div class="nav-bar">
     <ul>
       <li><a class="active" href="#home">Home</a></li>
-      <li><a href="#form">Form</a></li>
+      <li><a href="#form.html">Form</a></li>
       <li><a href="#contact">Contact</a></li>
       <li> <a href="#gallery">Gallery</a> </li>
       <li><a href="#about">About</a></li>
@@ -43,34 +69,86 @@
   </div>
 </div>
 </div>
-<div class="container">
-
-    <!-- <h1>BE IN CONTROL</h1> -->
 <div id="about">
-      <h1>About Us</h1>
-      <p>We created this system to help, and make it easier for those who need help with tracking their expenses,savings and budgets. </p>
-      <div class="row">
-        <div class="col-md-4"><img src="/img/1.jpg" alt="" height="300" width="300"></div>
-        <div class="col-md-4"> <img src="/img/2.jpg" alt=""height="300" width="300"></div>
-        <div class="col-md-4"><img src="/img/3.jpg" alt=""height="300" width="300"></div>
-      </div>
+    <h1>About Us</h1>
+    <p>We created this system to help, and make it easier for those who need help with tracking their expenses,savings and budgets. </p>
+    <div class="row img">
+      <div class="col-md-4"><img src="/img/1.jpg" alt="" height="300" width="300"></div>
+      <div class="col-md-4"> <img src="/img/2.jpg" alt=""height="300" width="300"></div>
+      <div class="col-md-4"><img src="/img/3.jpg" alt=""height="300" width="300"></div>
     </div>
+  </div>
 
 <div class="pad">
 <h1> WE SOLVE YOUR FINANCIAL PROBLEMS</h1>
-    <p>Problems from no savings,overbudges and incomes not known is left for us to figure out.We help you to be more aware of those things and level everthing out for you. What more do you need?</p> <p>Being in debt is the single most common reason why people have financial problems in the first place. Whether it’s bills or loans, the debt can take an ugly turn. The problem arises when you spend the money without realizing that you don’t have enough to pay it back. This is one of the most common mistakes people make.Which is why we are here to help.</p> 
-  </div>
-          <div> 
-              
-            <h1>Our Services</h1>
-               <p> Banking, includes handing deposits into checking and savings accounts.<p>  
-          <p>Loans,we want our customers to have no stress from debts,which is why we provide loans to you.<p>
-    <p>Tracking,includes tracking your debts,loans,savings and many more.<p>
-                </div>         
-            </div>
-            </div>
+  <p>Problems from no savings,overbudges and incomes not known is left for us to figure out.We help you to be more aware of those things and level everthing out for you. What more do you need?</p> <p>Being in debt is the single most common reason why people have financial problems in the first place. Whether it’s bills or loans, the debt can take an ugly turn. The problem arises when you spend the money without realizing that you don’t have enough to pay it back. This is one of the most common mistakes people make.Which is why we are here to help.</p> 
+</div>
+        <div class="ser"> 
+            
+          <h1>Our Services</h1>
+             <p> Banking, includes handing deposits into checking and savings accounts.<p>  
+        <p>Loans,we want our customers to have no stress from debts,which is why we provide loans to you.<p>
+  <p>Tracking,includes tracking your debts,loans,savings and many more.<p>
+              </div>         
+          </div>
+          </div>
 
-        </div>
+      </div>
+
+      </div>
+
+
+  <div style="text-align:center" class="gal">
+      <h2>Expetrack Image Gallery</h2>
+      
+    </div>
+    <!-- The four columns -->
+ <div class="row" id="gallery">
+   <div class="column">
+     <img src="images/100-bank-notes-buy-2099.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+   </div>
+   <div class="column">
+     <img src="images/calculation-calculator-cash-34502.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+   </div>
+   <div class="column">
+     <img src="images/c-clamp-cash-close-up-46242.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+   </div>
+   <div class="column">
+     <img src="images/balance-calculator-chart-163032.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+   </div>
+ </div>
+ <div class="row">
+   <div class="column">
+       <img src="images/bank-banking-blue-50987.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+     </div>
+     <div class="column">
+       <img src="images/bank-notes-budget-capitalism-12619.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+     </div>
+     <div class="column">
+       <img src="images/bank-notes-cash-close-up-417395.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+     </div>
+     <div class="column">
+       <img src="images/banknotes-cash-currency-545064.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+
+   </div>
+
+
+ </div>
+ <div class="container">
+     <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+     <img id="expandedImg" style="width:100%">
+     <div id="imgtext"></div>
+   </div>
+
+
+
+<div class="container">
+
+    <!-- <h1>BE IN CONTROL</h1> -->
+
+
+ 
+
     <script src="main.js"></script>
     
                 </div>
@@ -140,6 +218,8 @@
                 <h5 class="copy"> Copyright {2019} ExpeTracker</h5>
       
             </div>
+
+
 
 </body>
 </html>
